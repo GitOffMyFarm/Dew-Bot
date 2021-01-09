@@ -13,3 +13,5 @@ def run():
 def keep_alive():
     t = Thread(target=run)
     t.start()
+
+#Uses flask to create web server we can connect to main.py to keep open after repl window is closed.
